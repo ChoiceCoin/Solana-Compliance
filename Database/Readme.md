@@ -1,3 +1,3 @@
-# Solana Compliance Software
+# Solana Compliance Database
 
-Directory for Solana token security compliance automation.
+Directory for securities compliance database.
