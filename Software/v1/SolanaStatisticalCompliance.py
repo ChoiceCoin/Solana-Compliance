@@ -26,7 +26,7 @@ label4 = Label(master, text = 'Utility', relief = 'groove', width = 12)
 label5 = Label(master, text = 'Purpose', relief = 'groove', width = 12)
 # Factor 7 Control: An asset is less likely to be a security if the asset gives the user control over an organizations decision making.
 label6 = Label(master, text = 'Control', relief = 'groove', width = 12)
-# Factor 8 Derivatives: An asset is less likely to be a security if it does not over users derivatives or returns.
+# Factor 8 Derivatives: An asset is less likely to be a security if it does not offer users derivatives or returns.
 label7 = Label(master, text = 'Derivatives', relief = 'groove', width = 12)
 # Factor 9 Common Enterprise: An asset is less likely to be a security if it is not dedicated to the furtherance of a common enterprise.
 label8 = Label(master, text = 'Common Enterprise', relief = 'groove', width = 12)
