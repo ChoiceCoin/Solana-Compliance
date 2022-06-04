@@ -3,3 +3,6 @@ Repository for Solana compliance software and research. The focus for this repos
 
 # Open Source License
 [Apache License](https://github.com/ChoiceCoin/Solana-Compliance/blob/main/LICENSE)
+
+![solanaLogo](https://user-images.githubusercontent.com/87402354/171984176-188da662-b4e9-409a-80d0-77945a6f177d.png)
+
