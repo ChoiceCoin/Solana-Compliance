@@ -20,5 +20,5 @@ Choice Coin invented a Compliance AI for automating securities compliance. The C
 
 # Analytical Framework
 
-Whether an asset is a security or non-security asset depends on various actors analyzing certain attributes associated with the asset. This software defines the analysis using various defined variables, which may be weighted and processed for producing probabilistic measurements. The probabilistic measurements correspond with a number betwee 0 and 1, where an asset with a score of 1 is statistically unlikely to be a security and an asset with a score of 0 is likely to be a security.
+Whether an asset is a security or non-security asset depends on various actors analyzing certain attributes associated with the asset. This software defines the analysis using various defined variables, which may be weighted and processed for producing probabilistic measurements. The probabilistic measurements correspond with a number between 0 and 1, where an asset with a score of 1 is statistically unlikely to be a security and an asset with a score of 0 is likely to be a security.
 
