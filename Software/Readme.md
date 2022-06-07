@@ -16,7 +16,7 @@ However, regualtors nor legislators have any incentive to create clear rules or 
 
 # Solution
 
-Choice Coin invented a Compliance AI for automating securities compliance. The Compliance AI is an embedded system which formalizes human knowledge using natural language processing to statistically measure the probability that a particular asset is a security.
+Choice Coin invented a Compliance AI for automating securities compliance. The Compliance AI is an embedded system which formalizes human knowledge using natural language processing to statistically measure the probability that a particular asset is a security. The goal for this software is to help asset creators that do not wish create security tokens, engineer their assets to reduce regulatory risk of the SEC innaprorpriately labeling a non-security asset as a security.
 
 # Analytical Framework
 
