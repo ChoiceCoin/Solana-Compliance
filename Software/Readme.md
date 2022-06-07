@@ -12,7 +12,7 @@ The truth is, it is actually very easy to define a clear line. For example, only
 
 # Problem
 
-However, regualtors nor legislators have any incentive to create clear rules or guidance for innovative or decentralized markets. As a result, asset creators are in a difficult position, where there are only two ways they can follow the law. The first is to spend a fortune and wait years to register assets with the SEC, regardless of whether or not the asset is actually a security. The second way to follow the law is to engineer assets which are not securities and therefore not within the SEC's jurisdiction. However, for many, there is a lack of clarity in defining or understanding which digital assets are securities and which digital assets are not securities. 
+However, regulators nor legislators have any incentive to create clear rules or guidance for innovative or decentralized markets. As a result, asset creators are in a difficult position, where there are only two ways they can follow the law. The first is to spend a fortune and wait years to register assets with the SEC, regardless of whether or not the asset is actually a security. The second way to follow the law is to engineer assets which are not securities and therefore not within the SEC's jurisdiction. However, for many, there is a lack of clarity in defining or understanding which digital assets are securities and which digital assets are not securities. 
 
 # Solution
 
