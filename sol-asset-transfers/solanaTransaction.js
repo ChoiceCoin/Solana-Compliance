@@ -9,13 +9,20 @@ const {
 } = require("@solana/web3.js");
 const bs58 = require("bs58");
 
+const secretKey = ""; // ADD YOUR SECRET KEY HERE IF YOU WANT TO USE WALLET ADDRESS
+const recieversAddress = ""; // ADD THE RECIEVERS ADDRESS HERE
+
 const TESTNET = false;
 
-let fromKeypair = Keypair.generate(); // GENERATE A FROM KEYPAIR ADDRESS
+let fromKeypair =
+  secretKey === ""
+    ? Keypair.generate()
+    : Keypair.fromSecretKey(bs58.decode(secretKey)); // Uncomment this part to use wallet keypair
+
 let toKeypair = Keypair.generate(); // GNENERATE A TO KEYPAOIR ADDRESS
 
-secretKey = bs58.decode(""); // ADD YOUR SECRET KEY HERE IF YOU WANT TO USE WALLET ADDRESS
-// const walletPair = Keypair.fromSecretKey(secretKey); // Uncomment this part to use wallet keypair
+let toAddress =
+  recieversAddress === "" ? toKeypair.publicKey : recieversAddress; // Replace the from keypair.publicKey() to the address to transfer to
 
 let transaction = new Transaction();
 console.log(`Connecting to ${TESTNET ? "testnet" : "devnet"}`);
@@ -50,14 +57,13 @@ const confirmTransaction = async (payer) => {
 
 const main = async () => {
   await confirmTransaction(fromKeypair.publicKey);
-  // await confirmTransaction(toKeypair.publicKey);
   console.log(
-    `Creating transaction to send 0.5 SOL to ${toKeypair.publicKey} from ${fromKeypair.publicKey}`
+    `Creating transaction to send 0.5 SOL to ${toAddress} from ${fromKeypair.publicKey}`
   );
   transaction.add(
     SystemProgram.transfer({
       fromPubkey: fromKeypair.publicKey,
-      toPubkey: toKeypair.publicKey,
+      toPubkey: toAddress,
       lamports: solanaWeb3.LAMPORTS_PER_SOL / 2,
     })
   );
