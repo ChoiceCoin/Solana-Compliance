@@ -9,6 +9,7 @@ Given the inherent seperation of syntax and semantics, complying with securities
 The goal for this software is to help non-security tokens reduce that risk by optimizing their asset compliance statistically.
 Some people say that it's difficult to put a clear regulatory framework in place for cryptocurrency, so the lines are gray for which assets are securities.
 The truth is, it is actually very easy to define a clear line. For example, only assets which represent an equity interest in a company are securities.
+[YouTube Demo](https://www.youtube.com/watch?v=cKHA-2AkGVs)
 
 # Problem
 
