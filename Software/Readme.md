@@ -3,7 +3,9 @@
 Directory for Solana token compliance automation.
 The software provides a mechanism for statistically evaluating the likelihood a particular asset would be deemed a security.
 
-[YouTube Demo](https://www.youtube.com/watch?v=cKHA-2AkGVs)
+[v1 YouTube Demo](https://www.youtube.com/watch?v=cKHA-2AkGVs)
+
+[Web App YouTube Demo](https://www.youtube.com/watch?v=qexNNDlzO7Q)
 
 # Overview
 
