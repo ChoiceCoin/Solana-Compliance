@@ -56,7 +56,7 @@ const app = Vue.createApp({
           this.derivatives;
 
         this.userdata = result;
-        this.userdata2 = result ** (1 / 9);
+        this.userdata2 = result ** (1 / 8);
 
         console.log("Final result: ", this.userdata2);
         console.log(this.equity);
