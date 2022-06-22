@@ -3,13 +3,14 @@
 Directory for Solana token compliance automation.
 The software provides a mechanism for statistically evaluating the likelihood a particular asset would be deemed a security.
 
+[YouTube Demo](https://www.youtube.com/watch?v=cKHA-2AkGVs)
+
 # Overview
 
 Given the inherent seperation of syntax and semantics, complying with securities laws is a probabilistic risk assessment for non-security tokens.
 The goal for this software is to help non-security tokens reduce that risk by optimizing their asset compliance statistically.
 Some people say that it's difficult to put a clear regulatory framework in place for cryptocurrency, so the lines are gray for which assets are securities.
 The truth is, it is actually very easy to define a clear line. For example, only assets which represent an equity interest in a company are securities.
-[YouTube Demo](https://www.youtube.com/watch?v=cKHA-2AkGVs)
 
 # Problem
 
