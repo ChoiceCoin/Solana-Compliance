@@ -18,11 +18,6 @@
         get a wallet.
       </div>
       <div class="container">
-        <div class="final-result">
-          <img alt="choice logo" src="logo.jpeg" />
-          <p>compliance score result: <span>{{ userdata2 }} </span></p>
-        </div>
-
         <div class="data">
           <h3>Equity</h3>
           <select v-model="equity">
@@ -145,6 +140,7 @@
           <button @click="connectWallet" v-else>Connect Wallet</button>
         </div>
         <button @click="calculate">calculate compliance score</button>
+        <p>Compliance Score Result: <span>{{ userdata2 }} </span></p>
       </div>
     </div>
     <script src="app.js"></script>
