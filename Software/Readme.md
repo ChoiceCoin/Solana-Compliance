@@ -12,7 +12,7 @@ The software provides a mechanism for statistically evaluating the likelihood a 
 Given the inherent seperation of syntax and semantics, complying with securities laws is a probabilistic risk assessment for non-security tokens.
 The goal for this software is to help non-security tokens reduce that risk by optimizing their asset compliance statistically.
 Some people say that it's difficult to put a clear regulatory framework in place for cryptocurrency, so the lines are gray for which assets are securities.
-The truth is, it is actually very easy to define a clear line. For example, only assets which represent an equity interest in a company are securities.
+The truth is, it is actually very easy to define a clear line. For example, one way to do this is to state, only assets which represent an equity interest in a company are securities.
 
 # Problem
 
@@ -20,9 +20,12 @@ However, regulators nor legislators have any incentive to create clear rules or 
 
 # Solution
 
-Choice Coin invented a Compliance AI for automating securities compliance. The Compliance AI is an embedded system which formalizes human knowledge using natural language processing to statistically measure the probability that a particular asset is a security. The goal for this software is to help asset creators that do not wish create security tokens, engineer their assets to reduce regulatory risk and comply with the law.
+Choice Coin invented a Compliance AI for automating securities compliance. The Compliance AI is an embedded system which formalizes human knowledge using natural language processing to statistically measure the probability that a particular asset is a security. The goal for this software is to help asset creators on Solana that do not wish create security tokens, engineer their assets to reduce regulatory risk and comply with the law.
 
 # Analytical Framework
 
 Whether an asset is a security or non-security asset depends on various actors analyzing certain attributes associated with the asset. This software defines the analysis using various defined variables, which may be weighted and processed for producing probabilistic measurements. The probabilistic measurements correspond with a number between 0 and 1, where an asset with a score of 1 is statistically unlikely to be a security and an asset with a score of 0 is likely to be a security.
 
+# Solana Foundation
+
+Thank you to the Solana Foundation for generously supporting this research and development for the betterment of the Solana ecosystem.
