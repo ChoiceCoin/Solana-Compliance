@@ -28,4 +28,4 @@ Whether an asset is a security or non-security asset depends on various actors a
 
 # Solana Foundation
 
-Thank you to the Solana Foundation for generously supporting this research and development for the betterment of the Solana ecosystem.
+Thank you to the [Solana Foundation](https://solana.org/) for generously supporting this research and development for the betterment of the Solana ecosystem.
