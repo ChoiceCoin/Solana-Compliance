@@ -29,3 +29,7 @@ Whether an asset is a security or non-security asset depends on various actors a
 # Solana Foundation
 
 Thank you to the [Solana Foundation](https://solana.org/) for generously supporting this research and development for the betterment of the Solana ecosystem.
+
+# Disclaimer
+
+This repository is solely for the purposes of research and development. Nothing in this repository constitutes legal advice, nor can it replace the work or advice of hired legal counsel.
