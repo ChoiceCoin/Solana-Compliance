@@ -9,5 +9,9 @@ The [Database Directory](https://github.com/ChoiceCoin/Solana-Compliance/tree/ma
 # Software
 The [Software Directory](https://github.com/ChoiceCoin/Solana-Compliance/tree/main/Software) includes software for automating securities compliance analysis for digital assets on Solana.
 
+# Paper
+
+[Statistical Securities Compliance on Solana](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4189147), SSRN Paper No. 4,189,147 (2022).
+
 # Open Source License
 [Apache License](https://github.com/ChoiceCoin/Solana-Compliance/blob/main/LICENSE)
